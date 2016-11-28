@@ -65,7 +65,6 @@ define(["music-manager", "game-state"], function(MusicManager, GameState) {
 			this.musicManager = new MusicManager(this.instance, this.device);
 			// 创建游戏场景
 			this.gameState = new GameState(this.instance, this, this.musicManager);
-			console.log("init");
 		}
 	};
 	return GameManager;
